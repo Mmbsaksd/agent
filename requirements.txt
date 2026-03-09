@@ -16,3 +16,14 @@ yfinance
 ddgs
 structlog
 langchain_groq
+structlog
+
+PyYAML
+python-dotenv
+langchain
+langchain-openai
+langchain-google-genai
+langchain-groq
+openai
+google-generativeai
+groq

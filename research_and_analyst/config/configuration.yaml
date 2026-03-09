@@ -1,0 +1,37 @@
+llm:
+
+  default_provider: "azure"
+
+  providers:
+
+    azure:
+      provider: "azure"
+      model_name: "gpt-4o"
+      deployment_name: "gpt-4o"
+      azure_endpoint: "https://moham-mi3bbwto-eastus2.cognitiveservices.azure.com/"
+      api_version: "2025-01-01-preview"
+      temperature: 0
+      max_output_tokens: 2048
+
+    groq:
+      provider: "groq"
+      model_name: "deepseek-r1-distill-llama-70b"
+      temperature: 0
+      max_output_tokens: 2048
+
+    google:
+      provider: "google"
+      model_name: "gemini-2.0-flash"
+      temperature: 0
+      max_output_tokens: 2048
+
+    openai:
+      provider: "openai"
+      model_name: "gpt-4o"
+      temperature: 0
+
+embedding_model:
+  provider: "azure"
+  model_name: "text-embedding-3-small"
+  azure_endpoint: "https://moham-mi3bbwto-eastus2.cognitiveservices.azure.com/"
+  api_version: "2025-01-01-preview"
